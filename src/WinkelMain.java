@@ -17,6 +17,7 @@ public class WinkelMain {
 
         mandje.getMandje().forEach((k,v)-> System.out.println(k+"\t"+v));
 
+
         }
 
 
