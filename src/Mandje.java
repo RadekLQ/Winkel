@@ -39,5 +39,10 @@ public class Mandje {
     }
 
 
+    public Map<Product, Integer> getMandje() {
+        return mandje;
+    }
+
+
 
 }
