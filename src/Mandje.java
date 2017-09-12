@@ -14,7 +14,7 @@ public class Mandje {
 
     public void add(Product product, int aantal) {
         if(aantal > 0 && product != null)
-        mandje.put(product, mandje.get(product) + aantal);
+        mandje.put(product, aantal);
     }
 
     public void set(Product product, int aantal){
@@ -39,5 +39,7 @@ public class Mandje {
     }
 
 
-
+    public Map<Product, Integer> getMandje() {
+        return mandje;
+    }
 }

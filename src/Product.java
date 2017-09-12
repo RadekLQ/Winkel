@@ -24,5 +24,11 @@ public class Product {
         this.prijs = prijs;
     }
 
-
+    @Override
+    public String toString() {
+        return "Product{" +
+                "omschrijving='" + omschrijving + '\'' +
+                ", prijs=" + prijs +
+                '}';
+    }
 }
